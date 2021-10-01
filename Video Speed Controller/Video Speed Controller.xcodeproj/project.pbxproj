@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		27200CD027070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CCE27070E4600E206F8 /* InfoPlist.strings */; };
+		27200CD327070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CD127070E4600E206F8 /* InfoPlist.strings */; };
+		27200CD627070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CD427070E4600E206F8 /* InfoPlist.strings */; };
+		27200CD927070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CD727070E4600E206F8 /* InfoPlist.strings */; };
 		279FEB072706F67800AC9082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEB062706F67800AC9082 /* AppDelegate.swift */; };
 		279FEB092706F67800AC9082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEB082706F67800AC9082 /* SceneDelegate.swift */; };
 		279FEB0C2706F67800AC9082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB0A2706F67800AC9082 /* LaunchScreen.storyboard */; };
@@ -100,6 +104,14 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		27200CCA27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		27200CCB27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		27200CCC27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		27200CCD27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "../zh-Hans.lproj/Main.html"; sourceTree = "<group>"; };
+		27200CCF27070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		27200CD227070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		27200CD527070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		27200CD827070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		279FEAF72706F67700AC9082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
 		279FEAF82706F67700AC9082 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		279FEAF92706F67700AC9082 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
@@ -231,6 +243,7 @@
 				279FEB0A2706F67800AC9082 /* LaunchScreen.storyboard */,
 				279FEB0D2706F67800AC9082 /* Main.storyboard */,
 				279FEB102706F67800AC9082 /* Info.plist */,
+				27200CCE27070E4600E206F8 /* InfoPlist.strings */,
 			);
 			path = "iOS (App)";
 			sourceTree = "<group>";
@@ -241,6 +254,7 @@
 				279FEB172706F67800AC9082 /* AppDelegate.swift */,
 				279FEB192706F67800AC9082 /* Main.storyboard */,
 				279FEB1C2706F67800AC9082 /* Info.plist */,
+				27200CD427070E4600E206F8 /* InfoPlist.strings */,
 				279FEB1D2706F67800AC9082 /* Video Speed Controller.entitlements */,
 			);
 			path = "macOS (App)";
@@ -250,6 +264,7 @@
 			isa = PBXGroup;
 			children = (
 				279FEB272706F67800AC9082 /* Info.plist */,
+				27200CD127070E4600E206F8 /* InfoPlist.strings */,
 			);
 			path = "iOS (Extension)";
 			sourceTree = "<group>";
@@ -258,6 +273,7 @@
 			isa = PBXGroup;
 			children = (
 				279FEB312706F67800AC9082 /* Info.plist */,
+				27200CD727070E4600E206F8 /* InfoPlist.strings */,
 			);
 			path = "macOS (Extension)";
 			sourceTree = "<group>";
@@ -389,6 +405,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 279FEAEF2706F67700AC9082;
 			productRefGroup = 279FEB042706F67800AC9082 /* Products */;
@@ -409,6 +426,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279FEB342706F67800AC9082 /* Icon.png in Resources */,
+				27200CD027070E4600E206F8 /* InfoPlist.strings in Resources */,
 				279FEB0C2706F67800AC9082 /* LaunchScreen.storyboard in Resources */,
 				279FEB322706F67800AC9082 /* Main.html in Resources */,
 				279FEB382706F67800AC9082 /* Script.js in Resources */,
@@ -423,6 +441,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279FEB352706F67800AC9082 /* Icon.png in Resources */,
+				27200CD627070E4600E206F8 /* InfoPlist.strings in Resources */,
 				279FEB372706F67800AC9082 /* Style.css in Resources */,
 				279FEB1B2706F67800AC9082 /* Main.storyboard in Resources */,
 				279FEB392706F67800AC9082 /* Script.js in Resources */,
@@ -436,6 +455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279FEB6C2706F67800AC9082 /* inject.css in Resources */,
+				27200CD327070E4600E206F8 /* InfoPlist.strings in Resources */,
 				279FEB722706F67800AC9082 /* icons in Resources */,
 				279FEB6E2706F67800AC9082 /* options.js in Resources */,
 				279FEB6F2706F67800AC9082 /* README.md in Resources */,
@@ -456,6 +476,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279FEB5F2706F67800AC9082 /* inject.css in Resources */,
+				27200CD927070E4600E206F8 /* InfoPlist.strings in Resources */,
 				279FEB652706F67800AC9082 /* icons in Resources */,
 				279FEB612706F67800AC9082 /* options.js in Resources */,
 				279FEB622706F67800AC9082 /* README.md in Resources */,
@@ -525,10 +546,43 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		27200CCE27070E4600E206F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27200CCF27070E4600E206F8 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27200CD127070E4600E206F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27200CD227070E4600E206F8 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27200CD427070E4600E206F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27200CD527070E4600E206F8 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		27200CD727070E4600E206F8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				27200CD827070E4600E206F8 /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 		279FEAF62706F67700AC9082 /* Main.html */ = {
 			isa = PBXVariantGroup;
 			children = (
 				279FEAF72706F67700AC9082 /* Base */,
+				27200CCD27070C1200E206F8 /* zh-Hans */,
 			);
 			name = Main.html;
 			sourceTree = "<group>";
@@ -537,6 +591,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				279FEB0B2706F67800AC9082 /* Base */,
+				27200CCA27070C1200E206F8 /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -545,6 +600,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				279FEB0E2706F67800AC9082 /* Base */,
+				27200CCB27070C1200E206F8 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -553,6 +609,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				279FEB1A2706F67800AC9082 /* Base */,
+				27200CCC27070C1200E206F8 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -564,6 +621,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -623,6 +681,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -893,6 +952,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -931,6 +991,7 @@
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
 				LD_RUNPATH_SEARCH_PATHS = (
