@@ -1,0 +1,3 @@
+[submodule "videospeed"]
+	path = videospeed
+	url = https://github.com/Kyle-Ye/videospeed
