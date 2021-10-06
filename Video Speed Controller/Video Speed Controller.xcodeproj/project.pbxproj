@@ -281,19 +281,19 @@
 		279FEB502706F67800AC9082 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				279FEB512706F67800AC9082 /* popup.js */,
-				279FEB522706F67800AC9082 /* inject.css */,
 				279FEB532706F67800AC9082 /* popup.html */,
+				279FEB5C2706F67800AC9082 /* popup.css */,
+				279FEB512706F67800AC9082 /* popup.js */,
+				279FEB5A2706F67800AC9082 /* options.html */,
+				279FEB5D2706F67800AC9082 /* options.css */,
 				279FEB542706F67800AC9082 /* options.js */,
-				279FEB552706F67800AC9082 /* README.md */,
+				279FEB522706F67800AC9082 /* inject.css */,
+				279FEB5B2706F67800AC9082 /* inject.js */,
 				279FEB562706F67800AC9082 /* shadow.css */,
+				279FEB552706F67800AC9082 /* README.md */,
 				279FEB572706F67800AC9082 /* CONTRIBUTING.md */,
 				279FEB582706F67800AC9082 /* icons */,
 				279FEB592706F67800AC9082 /* manifest.json */,
-				279FEB5A2706F67800AC9082 /* options.html */,
-				279FEB5B2706F67800AC9082 /* inject.js */,
-				279FEB5C2706F67800AC9082 /* popup.css */,
-				279FEB5D2706F67800AC9082 /* options.css */,
 			);
 			name = Resources;
 			path = "Shared (Extension)";
