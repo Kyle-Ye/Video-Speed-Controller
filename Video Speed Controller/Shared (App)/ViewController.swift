@@ -19,8 +19,19 @@ typealias PlatformViewController = NSViewController
 let extensionBundleIdentifier = "top.kyleye.videospeedcontroller.Extension"
 
 class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMessageHandler {
-
     @IBOutlet var webView: WKWebView!
+
+#if os(iOS)
+    @IBOutlet var ackButton: UIButton!
+
+    @IBAction func acknowledgement(_ sender: Any) {
+        present(AckController(), animated: true, completion: nil)
+    }
+#elseif os(macOS)
+    @IBAction func acknowledgement(_ sender: Any) {
+        presentAsModalWindow(AckController(nibName: nil, bundle: nil))
+    }
+#endif
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -42,7 +53,7 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
 #elseif os(macOS)
         webView.evaluateJavaScript("show('mac')")
 
-        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { (state, error) in
+        SFSafariExtensionManager.getStateOfSafariExtension(withIdentifier: extensionBundleIdentifier) { state, error in
             guard let state = state, error == nil else {
                 // Insert code to inform the user that something went wrong.
                 return
@@ -57,8 +68,8 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
 
     func userContentController(_ userContentController: WKUserContentController, didReceive message: WKScriptMessage) {
 #if os(macOS)
-        if (message.body as! String != "open-preferences") {
-            return;
+        if message.body as! String != "open-preferences" {
+            return
         }
 
         SFSafariApplication.showPreferencesForExtension(withIdentifier: extensionBundleIdentifier) { error in
@@ -73,5 +84,4 @@ class ViewController: PlatformViewController, WKNavigationDelegate, WKScriptMess
         }
 #endif
     }
-
 }

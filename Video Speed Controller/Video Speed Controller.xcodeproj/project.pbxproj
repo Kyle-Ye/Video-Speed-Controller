@@ -59,6 +59,8 @@
 		279FEB752706F67800AC9082 /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB5B2706F67800AC9082 /* inject.js */; };
 		279FEB762706F67800AC9082 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB5C2706F67800AC9082 /* popup.css */; };
 		279FEB772706F67800AC9082 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB5D2706F67800AC9082 /* options.css */; };
+		27F565322713077D00324BE3 /* AckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F565312713077D00324BE3 /* AckController.swift */; };
+		27F565332713077D00324BE3 /* AckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F565312713077D00324BE3 /* AckController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -147,6 +149,7 @@
 		279FEB5B2706F67800AC9082 /* inject.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inject.js; path = ../../videospeed/inject.js; sourceTree = "<group>"; };
 		279FEB5C2706F67800AC9082 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../videospeed/popup.css; sourceTree = "<group>"; };
 		279FEB5D2706F67800AC9082 /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = ../../videospeed/options.css; sourceTree = "<group>"; };
+		27F565312713077D00324BE3 /* AckController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AckController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +201,7 @@
 			isa = PBXGroup;
 			children = (
 				279FEAFB2706F67700AC9082 /* ViewController.swift */,
+				27F565312713077D00324BE3 /* AckController.swift */,
 				279FEAFC2706F67800AC9082 /* Assets.xcassets */,
 				279FEAF52706F67700AC9082 /* Resources */,
 			);
@@ -500,6 +504,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				279FEB3A2706F67800AC9082 /* ViewController.swift in Sources */,
+				27F565322713077D00324BE3 /* AckController.swift in Sources */,
 				279FEB072706F67800AC9082 /* AppDelegate.swift in Sources */,
 				279FEB092706F67800AC9082 /* SceneDelegate.swift in Sources */,
 			);
@@ -509,6 +514,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				27F565332713077D00324BE3 /* AckController.swift in Sources */,
 				279FEB3B2706F67800AC9082 /* ViewController.swift in Sources */,
 				279FEB182706F67800AC9082 /* AppDelegate.swift in Sources */,
 			);

@@ -25,6 +25,9 @@
 /* Class = "NSMenuItem"; title = "Hide Video Speed Controller"; ObjectID = "Olw-nP-bQN"; */
 "Olw-nP-bQN.title" = "隐藏 Video Speed Controller";
 
+/* Class = "NSButtonCell"; title = "Acknowledgement"; ObjectID = "P4S-b9-hUG"; */
+"P4S-b9-hUG.title" = "致谢";
+
 /* Class = "NSMenu"; title = "Video Speed Controller"; ObjectID = "uQy-DD-JDr"; */
 "uQy-DD-JDr.title" = "Video Speed Controller";
 
