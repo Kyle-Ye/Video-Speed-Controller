@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		271A119029D091A900A0E705 /* AcknowKit in Frameworks */ = {isa = PBXBuildFile; productRef = 271A118F29D091A900A0E705 /* AcknowKit */; };
+		271A119429D09C2B00A0E705 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 271A119629D09C2B00A0E705 /* Localizable.strings */; };
 		27200CD927070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CD727070E4600E206F8 /* InfoPlist.strings */; };
 		279FEB3E2706F67800AC9082 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFE2706F67800AC9082 /* SafariWebExtensionHandler.swift */; };
 		279FEB3F2706F67800AC9082 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFE2706F67800AC9082 /* SafariWebExtensionHandler.swift */; };
@@ -41,13 +43,13 @@
 		27C14D6B29D067A000CE4F43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C14D6A29D067A000CE4F43 /* Preview Assets.xcassets */; };
 		27C14D7029D067D100CE4F43 /* VideoSpeedControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C14D6F29D067D100CE4F43 /* VideoSpeedControllerApp.swift */; };
 		27C14D7329D0697000CE4F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFB2706F67700AC9082 /* ViewController.swift */; };
-		27C14D7429D0697000CE4F43 /* AckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F565312713077D00324BE3 /* AckController.swift */; };
 		27C14D7529D069B600CE4F43 /* Video Speed Controller Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB222706F67800AC9082 /* Video Speed Controller Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		27C14D7E29D06A1E00CE4F43 /* Video Speed Controller Extension-macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB2C2706F67800AC9082 /* Video Speed Controller Extension-macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		27C14D8129D071DF00CE4F43 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF62706F67700AC9082 /* Main.html */; };
 		27C14D8229D071E600CE4F43 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF92706F67700AC9082 /* Style.css */; };
 		27C14D8329D071E800CE4F43 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAFA2706F67700AC9082 /* Script.js */; };
 		27C14D8429D071EC00CE4F43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF82706F67700AC9082 /* Icon.png */; };
+		27C14D8929D0791000CE4F43 /* AckTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C14D8829D0791000CE4F43 /* AckTab.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		271A119529D09C2B00A0E705 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		271A119729D09C2F00A0E705 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		27200CCD27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "../zh-Hans.lproj/Main.html"; sourceTree = "<group>"; };
 		27200CD527070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		27200CD827070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
@@ -122,7 +126,7 @@
 		27C14D6A29D067A000CE4F43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		27C14D6F29D067D100CE4F43 /* VideoSpeedControllerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSpeedControllerApp.swift; sourceTree = "<group>"; };
 		27C14D7229D0690200CE4F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		27F565312713077D00324BE3 /* AckController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AckController.swift; sourceTree = "<group>"; };
+		27C14D8829D0791000CE4F43 /* AckTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AckTab.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +148,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				271A119029D091A900A0E705 /* AcknowKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -226,13 +231,14 @@
 				27C14D6F29D067D100CE4F43 /* VideoSpeedControllerApp.swift */,
 				27C14D6429D0679F00CE4F43 /* ContentView.swift */,
 				279FEAFB2706F67700AC9082 /* ViewController.swift */,
-				27F565312713077D00324BE3 /* AckController.swift */,
+				27C14D8829D0791000CE4F43 /* AckTab.swift */,
 				27C14D6629D067A000CE4F43 /* Assets.xcassets */,
 				27C14D6829D067A000CE4F43 /* Video_Speed_Controller.entitlements */,
 				27C14D7229D0690200CE4F43 /* Info.plist */,
 				27200CD427070E4600E206F8 /* InfoPlist.strings */,
 				279FEAF52706F67700AC9082 /* Resources */,
 				27C14D6929D067A000CE4F43 /* Preview Content */,
+				271A119629D09C2B00A0E705 /* Localizable.strings */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -299,6 +305,9 @@
 				27C14D8029D06A1E00CE4F43 /* PBXTargetDependency */,
 			);
 			name = "Video Speed Controller";
+			packageProductDependencies = (
+				271A118F29D091A900A0E705 /* AcknowKit */,
+			);
 			productName = "Video Speed Controller";
 			productReference = 27C14D6029D0679F00CE4F43 /* Video Speed Controller.app */;
 			productType = "com.apple.product-type.application";
@@ -334,6 +343,9 @@
 				"zh-Hans",
 			);
 			mainGroup = 279FEAEF2706F67700AC9082;
+			packageReferences = (
+				271A118E29D091A900A0E705 /* XCRemoteSwiftPackageReference "AcknowKit" */,
+			);
 			productRefGroup = 279FEB042706F67800AC9082 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -394,6 +406,7 @@
 				27C14D8429D071EC00CE4F43 /* Icon.png in Resources */,
 				27C14D6B29D067A000CE4F43 /* Preview Assets.xcassets in Resources */,
 				27C14D8229D071E600CE4F43 /* Style.css in Resources */,
+				271A119429D09C2B00A0E705 /* Localizable.strings in Resources */,
 				27C14D8129D071DF00CE4F43 /* Main.html in Resources */,
 				27C14D8329D071E800CE4F43 /* Script.js in Resources */,
 				27C14D6729D067A000CE4F43 /* Assets.xcassets in Resources */,
@@ -424,9 +437,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				27C14D7329D0697000CE4F43 /* ViewController.swift in Sources */,
-				27C14D7429D0697000CE4F43 /* AckController.swift in Sources */,
 				27C14D6529D0679F00CE4F43 /* ContentView.swift in Sources */,
 				27C14D7029D067D100CE4F43 /* VideoSpeedControllerApp.swift in Sources */,
+				27C14D8929D0791000CE4F43 /* AckTab.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,6 +468,15 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		271A119629D09C2B00A0E705 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				271A119529D09C2B00A0E705 /* zh-Hans */,
+				271A119729D09C2F00A0E705 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		27200CD427070E4600E206F8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -759,6 +781,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -799,6 +823,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = YES;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -845,6 +871,26 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		271A118E29D091A900A0E705 /* XCRemoteSwiftPackageReference "AcknowKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Kyle-Ye/AcknowKit.git";
+			requirement = {
+				kind = versionRange;
+				maximumVersion = 1.0.0;
+				minimumVersion = 0.0.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		271A118F29D091A900A0E705 /* AcknowKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 271A118E29D091A900A0E705 /* XCRemoteSwiftPackageReference "AcknowKit" */;
+			productName = AcknowKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 279FEAF02706F67700AC9082 /* Project object */;
 }

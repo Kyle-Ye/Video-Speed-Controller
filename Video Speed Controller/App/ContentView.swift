@@ -9,7 +9,17 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ViewRepresentable()
+        TabView {
+            ViewRepresentable()
+                .tabItem {
+                    Label("Settings", systemImage: "gear")
+                }
+            AckTab()
+                .tabItem {
+                    Label("Acknowledgement", systemImage: "info.circle")                
+                }
+        }
+        .tabViewStyle(.automatic)
     }
 }
 
