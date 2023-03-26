@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "acknowkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Kyle-Ye/AcknowKit.git",
+      "state" : {
+        "revision" : "c3a47ecb352b08009eb4756fe4a0ea95f3139019",
+        "version" : "0.0.3"
+      }
+    }
+  ],
+  "version" : 2
+}
