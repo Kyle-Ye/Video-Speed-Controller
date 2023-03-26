@@ -44,7 +44,7 @@
 		27C14D7029D067D100CE4F43 /* VideoSpeedControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C14D6F29D067D100CE4F43 /* VideoSpeedControllerApp.swift */; };
 		27C14D7329D0697000CE4F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFB2706F67700AC9082 /* ViewController.swift */; };
 		27C14D7529D069B600CE4F43 /* Video Speed Controller Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB222706F67800AC9082 /* Video Speed Controller Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		27C14D7E29D06A1E00CE4F43 /* Video Speed Controller Extension-macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB2C2706F67800AC9082 /* Video Speed Controller Extension-macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27C14D7E29D06A1E00CE4F43 /* Video Speed Controller Extension-macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB2C2706F67800AC9082 /* Video Speed Controller Extension-macOS.appex */; platformFilters = (maccatalyst, macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		27C14D8129D071DF00CE4F43 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF62706F67700AC9082 /* Main.html */; };
 		27C14D8229D071E600CE4F43 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF92706F67700AC9082 /* Style.css */; };
 		27C14D8329D071E800CE4F43 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAFA2706F67700AC9082 /* Script.js */; };
@@ -457,6 +457,7 @@
 		27C14D7D29D069D500CE4F43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			platformFilters = (
+				maccatalyst,
 				macos,
 			);
 			target = 279FEB2B2706F67800AC9082 /* Video Speed Controller Extension (macOS) */;
@@ -794,7 +795,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = top.kyleye.videospeedcontroller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -838,7 +839,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = top.kyleye.videospeedcontroller;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = YES;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
