@@ -3,34 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 55;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		27200CD027070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CCE27070E4600E206F8 /* InfoPlist.strings */; };
-		27200CD327070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CD127070E4600E206F8 /* InfoPlist.strings */; };
-		27200CD627070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CD427070E4600E206F8 /* InfoPlist.strings */; };
 		27200CD927070E4600E206F8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 27200CD727070E4600E206F8 /* InfoPlist.strings */; };
-		279FEB072706F67800AC9082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEB062706F67800AC9082 /* AppDelegate.swift */; };
-		279FEB092706F67800AC9082 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEB082706F67800AC9082 /* SceneDelegate.swift */; };
-		279FEB0C2706F67800AC9082 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB0A2706F67800AC9082 /* LaunchScreen.storyboard */; };
-		279FEB0F2706F67800AC9082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB0D2706F67800AC9082 /* Main.storyboard */; };
-		279FEB182706F67800AC9082 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEB172706F67800AC9082 /* AppDelegate.swift */; };
-		279FEB1B2706F67800AC9082 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB192706F67800AC9082 /* Main.storyboard */; };
-		279FEB232706F67800AC9082 /* Video Speed Controller Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB222706F67800AC9082 /* Video Speed Controller Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		279FEB2D2706F67800AC9082 /* Video Speed Controller Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB2C2706F67800AC9082 /* Video Speed Controller Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
-		279FEB322706F67800AC9082 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF62706F67700AC9082 /* Main.html */; };
-		279FEB332706F67800AC9082 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF62706F67700AC9082 /* Main.html */; };
-		279FEB342706F67800AC9082 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF82706F67700AC9082 /* Icon.png */; };
-		279FEB352706F67800AC9082 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF82706F67700AC9082 /* Icon.png */; };
-		279FEB362706F67800AC9082 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF92706F67700AC9082 /* Style.css */; };
-		279FEB372706F67800AC9082 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF92706F67700AC9082 /* Style.css */; };
-		279FEB382706F67800AC9082 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAFA2706F67700AC9082 /* Script.js */; };
-		279FEB392706F67800AC9082 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAFA2706F67700AC9082 /* Script.js */; };
-		279FEB3A2706F67800AC9082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFB2706F67700AC9082 /* ViewController.swift */; };
-		279FEB3B2706F67800AC9082 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFB2706F67700AC9082 /* ViewController.swift */; };
-		279FEB3C2706F67800AC9082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAFC2706F67800AC9082 /* Assets.xcassets */; };
-		279FEB3D2706F67800AC9082 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAFC2706F67800AC9082 /* Assets.xcassets */; };
 		279FEB3E2706F67800AC9082 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFE2706F67800AC9082 /* SafariWebExtensionHandler.swift */; };
 		279FEB3F2706F67800AC9082 /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFE2706F67800AC9082 /* SafariWebExtensionHandler.swift */; };
 		279FEB5E2706F67800AC9082 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB512706F67800AC9082 /* popup.js */; };
@@ -59,19 +36,36 @@
 		279FEB752706F67800AC9082 /* inject.js in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB5B2706F67800AC9082 /* inject.js */; };
 		279FEB762706F67800AC9082 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB5C2706F67800AC9082 /* popup.css */; };
 		279FEB772706F67800AC9082 /* options.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEB5D2706F67800AC9082 /* options.css */; };
-		27F565322713077D00324BE3 /* AckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F565312713077D00324BE3 /* AckController.swift */; };
-		27F565332713077D00324BE3 /* AckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F565312713077D00324BE3 /* AckController.swift */; };
+		27C14D6529D0679F00CE4F43 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C14D6429D0679F00CE4F43 /* ContentView.swift */; };
+		27C14D6729D067A000CE4F43 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C14D6629D067A000CE4F43 /* Assets.xcassets */; };
+		27C14D6B29D067A000CE4F43 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 27C14D6A29D067A000CE4F43 /* Preview Assets.xcassets */; };
+		27C14D7029D067D100CE4F43 /* VideoSpeedControllerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27C14D6F29D067D100CE4F43 /* VideoSpeedControllerApp.swift */; };
+		27C14D7329D0697000CE4F43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279FEAFB2706F67700AC9082 /* ViewController.swift */; };
+		27C14D7429D0697000CE4F43 /* AckController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27F565312713077D00324BE3 /* AckController.swift */; };
+		27C14D7529D069B600CE4F43 /* Video Speed Controller Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB222706F67800AC9082 /* Video Speed Controller Extension.appex */; platformFilter = ios; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27C14D7E29D06A1E00CE4F43 /* Video Speed Controller Extension-macOS.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 279FEB2C2706F67800AC9082 /* Video Speed Controller Extension-macOS.appex */; platformFilters = (macos, ); settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		27C14D8129D071DF00CE4F43 /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF62706F67700AC9082 /* Main.html */; };
+		27C14D8229D071E600CE4F43 /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF92706F67700AC9082 /* Style.css */; };
+		27C14D8329D071E800CE4F43 /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAFA2706F67700AC9082 /* Script.js */; };
+		27C14D8429D071EC00CE4F43 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 279FEAF82706F67700AC9082 /* Icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		279FEB242706F67800AC9082 /* PBXContainerItemProxy */ = {
+		27C14D7629D069B600CE4F43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 279FEAF02706F67700AC9082 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 279FEB212706F67800AC9082;
 			remoteInfo = "Video Speed Controller Extension (iOS)";
 		};
-		279FEB2E2706F67800AC9082 /* PBXContainerItemProxy */ = {
+		27C14D7C29D069D500CE4F43 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 279FEAF02706F67700AC9082 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 279FEB2B2706F67800AC9082;
+			remoteInfo = "Video Speed Controller Extension (macOS)";
+		};
+		27C14D7F29D06A1E00CE4F43 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 279FEAF02706F67700AC9082 /* Project object */;
 			proxyType = 1;
@@ -81,37 +75,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		279FEB452706F67800AC9082 /* Embed App Extensions */ = {
+		27C14D7829D069B600CE4F43 /* Embed Foundation Extensions */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 13;
 			files = (
-				279FEB232706F67800AC9082 /* Video Speed Controller Extension.appex in Embed App Extensions */,
+				27C14D7529D069B600CE4F43 /* Video Speed Controller Extension.appex in Embed Foundation Extensions */,
+				27C14D7E29D06A1E00CE4F43 /* Video Speed Controller Extension-macOS.appex in Embed Foundation Extensions */,
 			);
-			name = "Embed App Extensions";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279FEB4C2706F67800AC9082 /* Embed App Extensions */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 13;
-			files = (
-				279FEB2D2706F67800AC9082 /* Video Speed Controller Extension.appex in Embed App Extensions */,
-			);
-			name = "Embed App Extensions";
+			name = "Embed Foundation Extensions";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		27200CCA27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
-		27200CCB27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
-		27200CCC27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
 		27200CCD27070C1200E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = "zh-Hans"; path = "../zh-Hans.lproj/Main.html"; sourceTree = "<group>"; };
-		27200CCF27070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
-		27200CD227070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		27200CD527070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		27200CD827070E4600E206F8 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		279FEAF72706F67700AC9082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = ../Base.lproj/Main.html; sourceTree = "<group>"; };
@@ -119,22 +98,9 @@
 		279FEAF92706F67700AC9082 /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
 		279FEAFA2706F67700AC9082 /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
 		279FEAFB2706F67700AC9082 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		279FEAFC2706F67800AC9082 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		279FEAFE2706F67800AC9082 /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
-		279FEB032706F67800AC9082 /* Video Speed Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Speed Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		279FEB062706F67800AC9082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		279FEB082706F67800AC9082 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		279FEB0B2706F67800AC9082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		279FEB0E2706F67800AC9082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		279FEB102706F67800AC9082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279FEB152706F67800AC9082 /* Video Speed Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Speed Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		279FEB172706F67800AC9082 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		279FEB1A2706F67800AC9082 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		279FEB1C2706F67800AC9082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279FEB1D2706F67800AC9082 /* Video Speed Controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Video Speed Controller.entitlements"; sourceTree = "<group>"; };
 		279FEB222706F67800AC9082 /* Video Speed Controller Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Video Speed Controller Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
-		279FEB272706F67800AC9082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		279FEB2C2706F67800AC9082 /* Video Speed Controller Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Video Speed Controller Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		279FEB2C2706F67800AC9082 /* Video Speed Controller Extension-macOS.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Video Speed Controller Extension-macOS.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		279FEB312706F67800AC9082 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		279FEB512706F67800AC9082 /* popup.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = popup.js; path = ../../videospeed/popup.js; sourceTree = "<group>"; };
 		279FEB522706F67800AC9082 /* inject.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = inject.css; path = ../../videospeed/inject.css; sourceTree = "<group>"; };
@@ -149,24 +115,17 @@
 		279FEB5B2706F67800AC9082 /* inject.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = inject.js; path = ../../videospeed/inject.js; sourceTree = "<group>"; };
 		279FEB5C2706F67800AC9082 /* popup.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = popup.css; path = ../../videospeed/popup.css; sourceTree = "<group>"; };
 		279FEB5D2706F67800AC9082 /* options.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = options.css; path = ../../videospeed/options.css; sourceTree = "<group>"; };
+		27C14D6029D0679F00CE4F43 /* Video Speed Controller.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Video Speed Controller.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		27C14D6429D0679F00CE4F43 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		27C14D6629D067A000CE4F43 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		27C14D6829D067A000CE4F43 /* Video_Speed_Controller.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Video_Speed_Controller.entitlements; sourceTree = "<group>"; };
+		27C14D6A29D067A000CE4F43 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		27C14D6F29D067D100CE4F43 /* VideoSpeedControllerApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoSpeedControllerApp.swift; sourceTree = "<group>"; };
+		27C14D7229D0690200CE4F43 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		27F565312713077D00324BE3 /* AckController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AckController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		279FEB002706F67800AC9082 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279FEB122706F67800AC9082 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		279FEB1F2706F67800AC9082 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -181,31 +140,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27C14D5D29D0679F00CE4F43 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		279FEAEF2706F67700AC9082 = {
 			isa = PBXGroup;
 			children = (
-				279FEAF42706F67700AC9082 /* Shared (App) */,
-				279FEAFD2706F67800AC9082 /* Shared (Extension) */,
-				279FEB052706F67800AC9082 /* iOS (App) */,
-				279FEB162706F67800AC9082 /* macOS (App) */,
-				279FEB262706F67800AC9082 /* iOS (Extension) */,
-				279FEB302706F67800AC9082 /* macOS (Extension) */,
+				27C14D6129D0679F00CE4F43 /* App */,
+				27C14D4D29D064EF00CE4F43 /* Extension */,
 				279FEB042706F67800AC9082 /* Products */,
+				27C14D4E29D0661400CE4F43 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		279FEAF42706F67700AC9082 /* Shared (App) */ = {
-			isa = PBXGroup;
-			children = (
-				279FEAFB2706F67700AC9082 /* ViewController.swift */,
-				27F565312713077D00324BE3 /* AckController.swift */,
-				279FEAFC2706F67800AC9082 /* Assets.xcassets */,
-				279FEAF52706F67700AC9082 /* Resources */,
-			);
-			path = "Shared (App)";
 			sourceTree = "<group>";
 		};
 		279FEAF52706F67700AC9082 /* Resources */ = {
@@ -219,67 +171,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
-		279FEAFD2706F67800AC9082 /* Shared (Extension) */ = {
-			isa = PBXGroup;
-			children = (
-				279FEB502706F67800AC9082 /* Resources */,
-				279FEAFE2706F67800AC9082 /* SafariWebExtensionHandler.swift */,
-			);
-			path = "Shared (Extension)";
-			sourceTree = "<group>";
-		};
 		279FEB042706F67800AC9082 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				279FEB032706F67800AC9082 /* Video Speed Controller.app */,
-				279FEB152706F67800AC9082 /* Video Speed Controller.app */,
 				279FEB222706F67800AC9082 /* Video Speed Controller Extension.appex */,
-				279FEB2C2706F67800AC9082 /* Video Speed Controller Extension.appex */,
+				279FEB2C2706F67800AC9082 /* Video Speed Controller Extension-macOS.appex */,
+				27C14D6029D0679F00CE4F43 /* Video Speed Controller.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		279FEB052706F67800AC9082 /* iOS (App) */ = {
-			isa = PBXGroup;
-			children = (
-				279FEB062706F67800AC9082 /* AppDelegate.swift */,
-				279FEB082706F67800AC9082 /* SceneDelegate.swift */,
-				279FEB0A2706F67800AC9082 /* LaunchScreen.storyboard */,
-				279FEB0D2706F67800AC9082 /* Main.storyboard */,
-				279FEB102706F67800AC9082 /* Info.plist */,
-				27200CCE27070E4600E206F8 /* InfoPlist.strings */,
-			);
-			path = "iOS (App)";
-			sourceTree = "<group>";
-		};
-		279FEB162706F67800AC9082 /* macOS (App) */ = {
-			isa = PBXGroup;
-			children = (
-				279FEB172706F67800AC9082 /* AppDelegate.swift */,
-				279FEB192706F67800AC9082 /* Main.storyboard */,
-				279FEB1C2706F67800AC9082 /* Info.plist */,
-				27200CD427070E4600E206F8 /* InfoPlist.strings */,
-				279FEB1D2706F67800AC9082 /* Video Speed Controller.entitlements */,
-			);
-			path = "macOS (App)";
-			sourceTree = "<group>";
-		};
-		279FEB262706F67800AC9082 /* iOS (Extension) */ = {
-			isa = PBXGroup;
-			children = (
-				279FEB272706F67800AC9082 /* Info.plist */,
-				27200CD127070E4600E206F8 /* InfoPlist.strings */,
-			);
-			path = "iOS (Extension)";
-			sourceTree = "<group>";
-		};
-		279FEB302706F67800AC9082 /* macOS (Extension) */ = {
-			isa = PBXGroup;
-			children = (
-				279FEB312706F67800AC9082 /* Info.plist */,
-				27200CD727070E4600E206F8 /* InfoPlist.strings */,
-			);
-			path = "macOS (Extension)";
 			sourceTree = "<group>";
 		};
 		279FEB502706F67800AC9082 /* Resources */ = {
@@ -300,50 +199,55 @@
 				279FEB592706F67800AC9082 /* manifest.json */,
 			);
 			name = Resources;
-			path = "Shared (Extension)";
+			path = Extension;
 			sourceTree = SOURCE_ROOT;
+		};
+		27C14D4D29D064EF00CE4F43 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				279FEB502706F67800AC9082 /* Resources */,
+				279FEAFE2706F67800AC9082 /* SafariWebExtensionHandler.swift */,
+				279FEB312706F67800AC9082 /* Info.plist */,
+				27200CD727070E4600E206F8 /* InfoPlist.strings */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		27C14D4E29D0661400CE4F43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		27C14D6129D0679F00CE4F43 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				27C14D6F29D067D100CE4F43 /* VideoSpeedControllerApp.swift */,
+				27C14D6429D0679F00CE4F43 /* ContentView.swift */,
+				279FEAFB2706F67700AC9082 /* ViewController.swift */,
+				27F565312713077D00324BE3 /* AckController.swift */,
+				27C14D6629D067A000CE4F43 /* Assets.xcassets */,
+				27C14D6829D067A000CE4F43 /* Video_Speed_Controller.entitlements */,
+				27C14D7229D0690200CE4F43 /* Info.plist */,
+				27200CD427070E4600E206F8 /* InfoPlist.strings */,
+				279FEAF52706F67700AC9082 /* Resources */,
+				27C14D6929D067A000CE4F43 /* Preview Content */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		27C14D6929D067A000CE4F43 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				27C14D6A29D067A000CE4F43 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		279FEB022706F67800AC9082 /* Video Speed Controller (iOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 279FEB462706F67800AC9082 /* Build configuration list for PBXNativeTarget "Video Speed Controller (iOS)" */;
-			buildPhases = (
-				279FEAFF2706F67800AC9082 /* Sources */,
-				279FEB002706F67800AC9082 /* Frameworks */,
-				279FEB012706F67800AC9082 /* Resources */,
-				279FEB452706F67800AC9082 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				279FEB252706F67800AC9082 /* PBXTargetDependency */,
-			);
-			name = "Video Speed Controller (iOS)";
-			productName = "Video Speed Controller (iOS)";
-			productReference = 279FEB032706F67800AC9082 /* Video Speed Controller.app */;
-			productType = "com.apple.product-type.application";
-		};
-		279FEB142706F67800AC9082 /* Video Speed Controller (macOS) */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 279FEB4D2706F67800AC9082 /* Build configuration list for PBXNativeTarget "Video Speed Controller (macOS)" */;
-			buildPhases = (
-				279FEB112706F67800AC9082 /* Sources */,
-				279FEB122706F67800AC9082 /* Frameworks */,
-				279FEB132706F67800AC9082 /* Resources */,
-				279FEB4C2706F67800AC9082 /* Embed App Extensions */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				279FEB2F2706F67800AC9082 /* PBXTargetDependency */,
-			);
-			name = "Video Speed Controller (macOS)";
-			productName = "Video Speed Controller (macOS)";
-			productReference = 279FEB152706F67800AC9082 /* Video Speed Controller.app */;
-			productType = "com.apple.product-type.application";
-		};
 		279FEB212706F67800AC9082 /* Video Speed Controller Extension (iOS) */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 279FEB422706F67800AC9082 /* Build configuration list for PBXNativeTarget "Video Speed Controller Extension (iOS)" */;
@@ -375,8 +279,29 @@
 			);
 			name = "Video Speed Controller Extension (macOS)";
 			productName = "Video Speed Controller Extension (macOS)";
-			productReference = 279FEB2C2706F67800AC9082 /* Video Speed Controller Extension.appex */;
+			productReference = 279FEB2C2706F67800AC9082 /* Video Speed Controller Extension-macOS.appex */;
 			productType = "com.apple.product-type.app-extension";
+		};
+		27C14D5F29D0679F00CE4F43 /* Video Speed Controller */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 27C14D6C29D067A000CE4F43 /* Build configuration list for PBXNativeTarget "Video Speed Controller" */;
+			buildPhases = (
+				27C14D5C29D0679F00CE4F43 /* Sources */,
+				27C14D5D29D0679F00CE4F43 /* Frameworks */,
+				27C14D5E29D0679F00CE4F43 /* Resources */,
+				27C14D7829D069B600CE4F43 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				27C14D7729D069B600CE4F43 /* PBXTargetDependency */,
+				27C14D7D29D069D500CE4F43 /* PBXTargetDependency */,
+				27C14D8029D06A1E00CE4F43 /* PBXTargetDependency */,
+			);
+			name = "Video Speed Controller";
+			productName = "Video Speed Controller";
+			productReference = 27C14D6029D0679F00CE4F43 /* Video Speed Controller.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
@@ -385,25 +310,22 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1300;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1300;
 				TargetAttributes = {
-					279FEB022706F67800AC9082 = {
-						CreatedOnToolsVersion = 13.0;
-					};
-					279FEB142706F67800AC9082 = {
-						CreatedOnToolsVersion = 13.0;
-					};
 					279FEB212706F67800AC9082 = {
 						CreatedOnToolsVersion = 13.0;
 					};
 					279FEB2B2706F67800AC9082 = {
 						CreatedOnToolsVersion = 13.0;
 					};
+					27C14D5F29D0679F00CE4F43 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 				};
 			};
 			buildConfigurationList = 279FEAF32706F67700AC9082 /* Build configuration list for PBXProject "Video Speed Controller" */;
-			compatibilityVersion = "Xcode 13.0";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -416,8 +338,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				279FEB022706F67800AC9082 /* Video Speed Controller (iOS) */,
-				279FEB142706F67800AC9082 /* Video Speed Controller (macOS) */,
+				27C14D5F29D0679F00CE4F43 /* Video Speed Controller */,
 				279FEB212706F67800AC9082 /* Video Speed Controller Extension (iOS) */,
 				279FEB2B2706F67800AC9082 /* Video Speed Controller Extension (macOS) */,
 			);
@@ -425,41 +346,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		279FEB012706F67800AC9082 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279FEB342706F67800AC9082 /* Icon.png in Resources */,
-				27200CD027070E4600E206F8 /* InfoPlist.strings in Resources */,
-				279FEB0C2706F67800AC9082 /* LaunchScreen.storyboard in Resources */,
-				279FEB322706F67800AC9082 /* Main.html in Resources */,
-				279FEB382706F67800AC9082 /* Script.js in Resources */,
-				279FEB3C2706F67800AC9082 /* Assets.xcassets in Resources */,
-				279FEB0F2706F67800AC9082 /* Main.storyboard in Resources */,
-				279FEB362706F67800AC9082 /* Style.css in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279FEB132706F67800AC9082 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279FEB352706F67800AC9082 /* Icon.png in Resources */,
-				27200CD627070E4600E206F8 /* InfoPlist.strings in Resources */,
-				279FEB372706F67800AC9082 /* Style.css in Resources */,
-				279FEB1B2706F67800AC9082 /* Main.storyboard in Resources */,
-				279FEB392706F67800AC9082 /* Script.js in Resources */,
-				279FEB3D2706F67800AC9082 /* Assets.xcassets in Resources */,
-				279FEB332706F67800AC9082 /* Main.html in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		279FEB202706F67800AC9082 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				279FEB6C2706F67800AC9082 /* inject.css in Resources */,
-				27200CD327070E4600E206F8 /* InfoPlist.strings in Resources */,
 				279FEB722706F67800AC9082 /* icons in Resources */,
 				279FEB6E2706F67800AC9082 /* options.js in Resources */,
 				279FEB6F2706F67800AC9082 /* README.md in Resources */,
@@ -496,30 +387,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27C14D5E29D0679F00CE4F43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C14D8429D071EC00CE4F43 /* Icon.png in Resources */,
+				27C14D6B29D067A000CE4F43 /* Preview Assets.xcassets in Resources */,
+				27C14D8229D071E600CE4F43 /* Style.css in Resources */,
+				27C14D8129D071DF00CE4F43 /* Main.html in Resources */,
+				27C14D8329D071E800CE4F43 /* Script.js in Resources */,
+				27C14D6729D067A000CE4F43 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		279FEAFF2706F67800AC9082 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				279FEB3A2706F67800AC9082 /* ViewController.swift in Sources */,
-				27F565322713077D00324BE3 /* AckController.swift in Sources */,
-				279FEB072706F67800AC9082 /* AppDelegate.swift in Sources */,
-				279FEB092706F67800AC9082 /* SceneDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		279FEB112706F67800AC9082 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				27F565332713077D00324BE3 /* AckController.swift in Sources */,
-				279FEB3B2706F67800AC9082 /* ViewController.swift in Sources */,
-				279FEB182706F67800AC9082 /* AppDelegate.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		279FEB1E2706F67800AC9082 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -536,38 +419,42 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		27C14D5C29D0679F00CE4F43 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27C14D7329D0697000CE4F43 /* ViewController.swift in Sources */,
+				27C14D7429D0697000CE4F43 /* AckController.swift in Sources */,
+				27C14D6529D0679F00CE4F43 /* ContentView.swift in Sources */,
+				27C14D7029D067D100CE4F43 /* VideoSpeedControllerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		279FEB252706F67800AC9082 /* PBXTargetDependency */ = {
+		27C14D7729D069B600CE4F43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
+			platformFilter = ios;
 			target = 279FEB212706F67800AC9082 /* Video Speed Controller Extension (iOS) */;
-			targetProxy = 279FEB242706F67800AC9082 /* PBXContainerItemProxy */;
+			targetProxy = 27C14D7629D069B600CE4F43 /* PBXContainerItemProxy */;
 		};
-		279FEB2F2706F67800AC9082 /* PBXTargetDependency */ = {
+		27C14D7D29D069D500CE4F43 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			platformFilters = (
+				macos,
+			);
+			target = 279FEB2B2706F67800AC9082 /* Video Speed Controller Extension (macOS) */;
+			targetProxy = 27C14D7C29D069D500CE4F43 /* PBXContainerItemProxy */;
+		};
+		27C14D8029D06A1E00CE4F43 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 279FEB2B2706F67800AC9082 /* Video Speed Controller Extension (macOS) */;
-			targetProxy = 279FEB2E2706F67800AC9082 /* PBXContainerItemProxy */;
+			targetProxy = 27C14D7F29D06A1E00CE4F43 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		27200CCE27070E4600E206F8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27200CCF27070E4600E206F8 /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		27200CD127070E4600E206F8 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				27200CD227070E4600E206F8 /* zh-Hans */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		27200CD427070E4600E206F8 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -591,33 +478,6 @@
 				27200CCD27070C1200E206F8 /* zh-Hans */,
 			);
 			name = Main.html;
-			sourceTree = "<group>";
-		};
-		279FEB0A2706F67800AC9082 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				279FEB0B2706F67800AC9082 /* Base */,
-				27200CCA27070C1200E206F8 /* zh-Hans */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		279FEB0D2706F67800AC9082 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				279FEB0E2706F67800AC9082 /* Base */,
-				27200CCB27070C1200E206F8 /* zh-Hans */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		279FEB192706F67800AC9082 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				279FEB1A2706F67800AC9082 /* Base */,
-				27200CCC27070C1200E206F8 /* zh-Hans */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -743,10 +603,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VB7MJ8R223;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -774,10 +634,10 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = VB7MJ8R223;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -799,81 +659,6 @@
 			};
 			name = Release;
 		};
-		279FEB472706F67800AC9082 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VB7MJ8R223;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = top.kyleye.videospeedcontroller;
-				PRODUCT_NAME = "Video Speed Controller";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		279FEB482706F67800AC9082 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = VB7MJ8R223;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "iOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller";
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = top.kyleye.videospeedcontroller;
-				PRODUCT_NAME = "Video Speed Controller";
-				SDKROOT = iphoneos;
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		279FEB4A2706F67800AC9082 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -884,7 +669,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -892,14 +677,14 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = top.kyleye.videospeedcontroller.Extension;
-				PRODUCT_NAME = "Video Speed Controller Extension";
+				PRODUCT_NAME = "Video Speed Controller Extension-macOS";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -917,7 +702,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_USER_SELECTED_FILES = readonly;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_FILE = Extension/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller Extension";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -925,14 +710,14 @@
 					"@executable_path/../Frameworks",
 					"@executable_path/../../../../Frameworks",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					SafariServices,
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = top.kyleye.videospeedcontroller.Extension;
-				PRODUCT_NAME = "Video Speed Controller Extension";
+				PRODUCT_NAME = "Video Speed Controller Extension-macOS";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -940,79 +725,83 @@
 			};
 			name = Release;
 		};
-		279FEB4E2706F67800AC9082 /* Debug */ = {
+		27C14D6D29D067A000CE4F43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Video Speed Controller.entitlements";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = App/Video_Speed_Controller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = VB7MJ8R223;
-				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_FILE = App/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = top.kyleye.videospeedcontroller;
-				PRODUCT_NAME = "Video Speed Controller";
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		279FEB4F2706F67800AC9082 /* Release */ = {
+		27C14D6E29D067A000CE4F43 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Video Speed Controller.entitlements";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CODE_SIGN_ENTITLEMENTS = App/Video_Speed_Controller.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"App/Preview Content\"";
 				DEVELOPMENT_TEAM = VB7MJ8R223;
-				ENABLE_APP_SANDBOX = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				ENABLE_USER_SELECTED_FILES = readonly;
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "macOS (App)/Info.plist";
-				INFOPLIST_KEY_CFBundleDisplayName = "Video Speed Controller";
-				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-				);
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				INFOPLIST_FILE = App/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.0;
-				OTHER_LDFLAGS = (
-					"-framework",
-					SafariServices,
-					"-framework",
-					WebKit,
-				);
 				PRODUCT_BUNDLE_IDENTIFIER = top.kyleye.videospeedcontroller;
-				PRODUCT_NAME = "Video Speed Controller";
-				SDKROOT = macosx;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -1037,15 +826,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		279FEB462706F67800AC9082 /* Build configuration list for PBXNativeTarget "Video Speed Controller (iOS)" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				279FEB472706F67800AC9082 /* Debug */,
-				279FEB482706F67800AC9082 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		279FEB492706F67800AC9082 /* Build configuration list for PBXNativeTarget "Video Speed Controller Extension (macOS)" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1055,11 +835,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		279FEB4D2706F67800AC9082 /* Build configuration list for PBXNativeTarget "Video Speed Controller (macOS)" */ = {
+		27C14D6C29D067A000CE4F43 /* Build configuration list for PBXNativeTarget "Video Speed Controller" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				279FEB4E2706F67800AC9082 /* Debug */,
-				279FEB4F2706F67800AC9082 /* Release */,
+				27C14D6D29D067A000CE4F43 /* Debug */,
+				27C14D6E29D067A000CE4F43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
